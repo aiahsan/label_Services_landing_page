@@ -1,0 +1,20 @@
+h1 {
+  font-size: 48px !important;
+  font-weight: 700 !important;
+  line-height: 76px !important;
+}
+h2 {
+  font-size: 36px !important;
+  color: #556ee6 !important;
+  font-weight: 700 !important;
+}
+h3 {
+  font-size: 30px !important;
+  font-weight: 700 !important;
+}
+.blue-text {
+  color: #556ee6 !important;
+}
+.light-text {
+  font-weight: 300 !important;
+}

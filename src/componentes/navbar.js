@@ -13,13 +13,13 @@ import {
 export default () => {
   return (
     <header>
-      <div class='container-fluid'>
-        <div class='row'>
-          <div class='col-xl-10 col-lg-11 mx-auto'>
+      <div className='container-fluid'>
+        <div className='row'>
+          <div className='col-xl-10 col-lg-11 mx-auto'>
             <Navbar collapseOnSelect expand='lg' variant='dark'>
               <Navbar.Brand href='#home'>
                 {' '}
-                <img src='/images/logo.png' alt='' class='img-fluid' />
+                <img src='/images/logo.png' alt='' className='img-fluid' />
               </Navbar.Brand>
               <Navbar.Toggle aria-controls='responsive-navbar-nav' />
               <Navbar.Collapse
@@ -30,7 +30,7 @@ export default () => {
                   <Nav.Link href='#Home'>
                     {' '}
                     <Link
-                      activeClass='active'
+                      activeclass='active'
                       to='home'
                       spy={true}
                       smooth={true}
@@ -41,7 +41,7 @@ export default () => {
                   </Nav.Link>
                   <Nav.Link href='#Features'>
                     <Link
-                      activeClass='active'
+                      activeclass='active'
                       to='Features'
                       spy={true}
                       smooth={true}
@@ -53,7 +53,7 @@ export default () => {
                   <Nav.Link href='#pricing'>
                     {' '}
                     <Link
-                      activeClass='active'
+                      activeclass='active'
                       to='pricing'
                       spy={true}
                       smooth={true}
@@ -64,7 +64,7 @@ export default () => {
                   </Nav.Link>
                   <Nav.Link href='#faq'>
                     <Link
-                      activeClass='active'
+                      activeclass='active'
                       to='faq'
                       spy={true}
                       smooth={true}
@@ -74,7 +74,7 @@ export default () => {
                     </Link>
                   </Nav.Link>
                   <Nav.Link
-                    className='nav-btn d-flex'
+                    className='nav-btn d-flex login-btn'
                     eventKey={2}
                     href='#memes'
                   >

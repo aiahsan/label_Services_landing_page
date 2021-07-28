@@ -7,13 +7,13 @@ export default ({ title, body }) => {
         <Card>
           <Card.Header>
             <Accordion.Toggle
-              class='btn d-flex w-100 align-items-center justify-content-between collapsed'
+              className='btn d-flex w-100 align-items-center justify-content-between collapsed'
               as={Button}
               variant='link'
               eventKey='0'
             >
               <span>
-                Why should I choose <span class='blue-text'>Labels?</span>
+                Why should I choose <span className='blue-text'>Labels?</span>
               </span>
             </Accordion.Toggle>
           </Card.Header>
